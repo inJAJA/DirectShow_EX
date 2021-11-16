@@ -131,6 +131,7 @@
     <ClCompile Include="cam_play.cpp" />
     <ClCompile Include="cam_img_cap.cpp" />
     <ClCompile Include="cam_enum.cpp" />
+    <ClCompile Include="cam_select_cap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="qedit.h" />

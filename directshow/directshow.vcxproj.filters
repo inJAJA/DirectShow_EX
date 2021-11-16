@@ -38,5 +38,8 @@
     <ClCompile Include="cam_enum.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cam_select_cap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
