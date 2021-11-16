@@ -4,3 +4,6 @@ x64/
 directshow/x64/
 
 data/
+
+*.jpg
+*.bmp
