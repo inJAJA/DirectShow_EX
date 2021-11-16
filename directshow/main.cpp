@@ -1,6 +1,7 @@
 //int video_img_cap();
-int video_play();
+//int video_play();
+int cam_play();
 
 int main() {
-	video_play();
+	cam_play();
 }
