@@ -129,6 +129,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="video_play.cpp" />
     <ClCompile Include="cam_play.cpp" />
+    <ClCompile Include="cam_img_cap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="qedit.h" />
