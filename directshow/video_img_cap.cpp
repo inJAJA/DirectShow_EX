@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <iostream>
 
-
 #include <dshow.h>
 #include "qedit.h" // for SampleGrabber
 
@@ -10,13 +9,12 @@
 #include <windows.h>
 #pragma comment(lib, "strmiids")
 
-BSTR bstrStr = SysAllocString(L"..\\data\\NY.avi"); // const char ro BSTR
-#define	FILENAME bstrStr
-
 using namespace std;
 
 int video_img_cap()
 {
+	BSTR filename = SysAllocString(L"..\\data\\NY.avi"); // const char ro BSTR\
+
 	IGraphBuilder *pGraphBuilder;
 	IMediaControl *pMediaControl;
 
@@ -68,7 +66,7 @@ int video_img_cap()
 	// create Graph.
 	// Graph that contains SampleGrabber
 	// will be created automatically.
-	HRESULT hr = pGraphBuilder->RenderFile(FILENAME, 0);	// supported : ASF, WMA, WMV, AIFF, AU, AVI, MIDI, SND, WAV, ACC
+	HRESULT hr = pGraphBuilder->RenderFile(filename, 0);	// supported : ASF, WMA, WMV, AIFF, AU, AVI, MIDI, SND, WAV, ACC
 	if (FAILED(hr)) {
 		cout << "Error : " << hr << endl;
 	}
