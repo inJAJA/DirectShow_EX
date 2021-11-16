@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "directshow", "directshow\directshow.vcxproj", "{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Debug|x64.ActiveCfg = Debug|x64
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Debug|x64.Build.0 = Debug|x64
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Debug|x86.Build.0 = Debug|Win32
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Release|x64.ActiveCfg = Release|x64
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Release|x64.Build.0 = Release|x64
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Release|x86.ActiveCfg = Release|Win32
+		{DFF7A85F-2D0D-4E8A-9DFF-17358CA267AE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F172964-BC6F-4891-A691-5F8AB0BFB11D}
+	EndGlobalSection
+EndGlobal
